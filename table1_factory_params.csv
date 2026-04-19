@@ -1,0 +1,6 @@
+Factory,Country,ProdCost,e_dir,e_indir,e_total,pi_dom,Cap,Delta
+F0,China,360,1.85,0.261,2.111,8.0,500,1
+F1,India,330,2.1,0.36,2.8,0.0,450,0
+F2,Turkey,420,1.5,0.168,1.668,0.0,400,1
+F3,Brazil,400,1.2,0.03,1.23,0.0,350,1
+F4,Vietnam,320,2.0,0.312,2.8,0.0,400,0

@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git *)",
+      "Bash(gh *)",
+      "Bash(winget install *)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe *)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe auth *)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login --with-token)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" repo create volt-ai-website --public --source=. --remote=origin --push)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe api *)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" api repos/wang7-dot/volt-ai-website/pages)",
+      "Bash(curl *)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" api repos/wang7-dot/volt-ai-website/pages -X DELETE)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" run list --repo wang7-dot/volt-ai-website --limit 3)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" run view 24606854807 --repo wang7-dot/volt-ai-website --log-failed)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" run list --repo wang7-dot/volt-ai-website --limit 1)",
+      "Skill(update-config)",
+      "Read(//c/Users/Mayn/.claude/skills//**)",
+      "Bash(mkdir -p /c/Users/Mayn/.claude/skills/)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" run list --repo wang7-dot/volt-ai-website --limit 1 --json status,conclusion,name -q '.[0]')",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" run list --repo wang7-dot/volt-ai-website --limit 1 --json status,conclusion -q '.[0]')"
+    ]
+  }
+}
